@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  margin-bottom: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-top: 10px;
+}
+.color-box {
+  width: 200px;
+  height: 350px;
+  margin: 10px 10px;
+  background-color: wheat;
+  border: 7px solid whitesmoke;
+}
+main > div:nth-child(1) {
+  background-color: tomato;
+}
+main > div:nth-child(2) {
+  background-color: teal;
+}
+main > div:nth-child(3) {
+  background-color: burlywood;
+}
+main > div:nth-child(4) {
+  background-color: thistle;
+}
+h2 {
+  margin: 0px;
+}
+h3 {
+  margin: 0px;
+}
+div > div {
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  top: 15px;
+}

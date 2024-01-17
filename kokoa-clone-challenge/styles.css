@@ -1,0 +1,36 @@
+body {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+.outside {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+}
+.inside {
+  background-color: teal;
+  border-color: white;
+}
+.dashed {
+  border-style: dashed;
+}
+.rectangle {
+  width: 310px;
+  height: 90px;
+}
+.square {
+  width: 90px;
+  height: 90px;
+}

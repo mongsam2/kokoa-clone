@@ -1,0 +1,236 @@
+@import "reset.css";
+body {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0px;
+}
+.page {
+  position: relative;
+  background-color: white;
+  width: 450px;
+  height: 1000px;
+  box-shadow: 0px 0px 40px 9px rgb(232, 230, 230);
+  border-radius: 40px;
+  padding: 28px;
+}
+.music-header {
+  padding: 23px 0px;
+}
+.music-header__icons {
+  display: flex;
+  justify-content: space-between;
+}
+.music-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.music-profile__img {
+  border-radius: 50%;
+  width: 138px;
+  height: 138px;
+  box-shadow: 0px 6px 38px 0px rgba(2, 4, 60, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.music-profile__img img {
+  border-radius: 50%;
+  width: 138px;
+  height: 138px;
+}
+.music-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.music-title--small {
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 15px;
+}
+.music-subtitle {
+  font-size: 20px;
+  opacity: 0.5;
+}
+.music-subtitle--small {
+  font-size: 17px;
+}
+.music-profile__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+}
+.music-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 22px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 160px;
+  height: 60px;
+  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.3);
+}
+.music-buttons__shuffle {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  transition: all 0.15s ease-in-out;
+}
+.music-buttons__shuffle:hover {
+  background-color: rgb(96, 95, 95);
+}
+.music-buttons__heart {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
+}
+.music-buttons__heart:hover {
+  background-color: rgb(225, 225, 225);
+}
+.music-buttons__heart i {
+  color: black;
+  margin-right: 10px;
+}
+.music-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 18%;
+}
+.music-list__element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 31px;
+  border-radius: 25px;
+}
+.music-list__element--shadow {
+  box-shadow: 0px 8px 70px 1px rgba(101, 100, 100, 0.3);
+}
+.music-list__text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+#music-selected {
+  position: relative;
+}
+#music-selected__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  width: 75px;
+  height: 75px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 33px;
+}
+.music-playbar {
+  height: 97px;
+  width: 450px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 25px 38px;
+  background-color: black;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 28px;
+  box-shadow: 0px 5px 50px 3px rgba(52, 52, 52, 0.6);
+}
+.music-playbar__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.music-playbar__icons {
+  width: 40%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.music-img-container {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px;
+}
+.music-img--big {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 20px 40px 3px rgb(248, 94, 94);
+}
+.music-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.music-text .music-title {
+  margin: 10px 0px;
+}
+.progress-bar__time {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+.progress-bar__bar-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+.progress-bar__bar--black {
+  background-color: black;
+  height: 5px;
+  width: 65%;
+}
+.progress-bar__bar--white {
+  background-color: rgb(219, 218, 218);
+  height: 5px;
+  width: 35%;
+}
+.progress-bar__circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 64%;
+}
+.play-buttons {
+  padding: 80px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-buttons > i:nth-child(odd) {
+  font-size: 25px;
+  color: rgb(200, 200, 200);
+}
+.play-buttons i:nth-child(even) {
+  font-size: 30px;
+  color: black;
+}
+.btn--circle > i {
+  color: white;
+}
+.btn--circle {
+  background-color: black;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}

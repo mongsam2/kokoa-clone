@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+h3 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+body {
+  width: 350px;
+  margin: 0px;
+  padding: 25px;
+  border: 5px solid mediumturquoise;
+  font-family: "Exo 2", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+header .fa-xmark {
+  width: 33%;
+}
+header h2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+header div {
+  width: 33%;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.info__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  margin-right: 20px;
+  background-color: orange;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.info__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+  width: 180px;
+}
+.info__text h1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  font-size: 40px;
+}
+.info__text p {
+  margin-top: 5px;
+  color: grey;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons--shadow {
+  border: 3px solid black;
+  border-bottom-width: 6px;
+}
+.buttons__play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 55px;
+  border-radius: 20px;
+}
+.buttons__play h3 {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.buttons--circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+ul {
+  padding: 0px;
+  margin-top: 40px;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+.li__color {
+  width: 60px;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.li__text h3 {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.li__text p {
+  color: grey;
+}
+li:nth-child(1) .li__color {
+  background-color: tomato;
+}
+li:nth-child(2) .li__color {
+  background-color: pink;
+}
+li:nth-child(3) .li__color {
+  background-color: blue;
+}
+li:nth-child(4) .li__color {
+  background-color: mediumaquamarine;
+}

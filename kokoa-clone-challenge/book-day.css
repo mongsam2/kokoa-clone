@@ -1,0 +1,53 @@
+.book-day__content {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+.book-day__img {
+  width: 140px;
+  height: 220px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.book-day__book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book-day__book-type {
+  display: flex;
+  justify-content: space-around;
+}
+.book-day__book-type h4 {
+  margin-right: 10px;
+  background-color: #f7f7f7;
+  padding: 7px 17px;
+  border-radius: 5px;
+}
+.book-day__btns {
+  display: flex;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffce33;
+  margin-right: 45px;
+}
+.btn2 {
+  font-size: 14px;
+  color: white;
+  padding: 15px 30px;
+  background-color: black;
+  border-radius: 10px;
+}
+.book-day__book-title {
+  font-size: 23px;
+  font-weight: 500;
+}
+.book-day__book-author {
+  opacity: 0.3;
+}
